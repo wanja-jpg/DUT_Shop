@@ -1,0 +1,63 @@
+﻿@page
+@model DUTShopUI.Pages.Products.IndexModel
+@{
+}
+
+
+<br />
+<div class="container row p-0 m-0">
+    <div class="col-9">
+        <h2 class="mb-3">Products List</h2>
+    </div>
+    <div class="col-3">
+        <a asp-page="Create" class="btn btn-primary form-control">Create New Product</a>
+    </div>
+
+
+    <div class="col-12 border p-3 mt-3">
+        <form method="post">
+            @if (Model.Products.Count() > 0)
+            {
+                <table class="table table-striped border">
+                    <tr class="table-secondary">
+                        <th>
+                            <label asp-for="Products.FirstOrDefault().Name">Name</label>
+                        </th>
+                        <th>
+                            @*@Html.DisplayNameFor(m=>m.Books.FirstOrDefault().Author)*@
+                            <label asp-for="Products.FirstOrDefault().UnitPrice">Unit Price</label>
+                        </th>
+                        <th>
+                            <label asp-for="Products.FirstOrDefault().StockQuantity">In Stock</label>
+                        </th>
+                        <th>
+
+                        </th>
+                    </tr>
+                    @foreach (var item in Model.Products)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(m => item.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.UnitPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(m => item.StockQuantity)
+                            </td>
+                            <td>
+                                <button asp-page-handler="Delete" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-sm">Delete</button>
+                                <a asp-page="Edit" asp-route-id="@item.Id" class="btn btn-success btn-sm text-white">Edit</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+            else
+            {
+                <p>No customers.</p>
+            }
+        </form>
+    </div>
+</div>

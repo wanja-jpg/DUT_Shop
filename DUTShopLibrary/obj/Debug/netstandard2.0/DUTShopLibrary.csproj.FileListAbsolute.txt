@@ -1,0 +1,10 @@
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.csproj.AssemblyReference.cache
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.AssemblyInfoInputs.cache
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.AssemblyInfo.cs
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\bin\Debug\netstandard2.0\DUTShopLibrary.deps.json
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\bin\Debug\netstandard2.0\DUTShopLibrary.dll
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\bin\Debug\netstandard2.0\DUTShopLibrary.pdb
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.dll
+C:\Users\Иван\source\repos\DUT_Shop\DUTShopLibrary\obj\Debug\netstandard2.0\DUTShopLibrary.pdb
